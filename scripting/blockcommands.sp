@@ -7,7 +7,7 @@ public Plugin myinfo =
 	name 		= 	"[ ZK Servidores™ ] - Block Commands",
 	author 		= 	"Geison, crashzk",
 	description	=	"Blocks commands sent on the server console to crash or cause bugs",
-	version 	= 	"1.0",
+	version 	= 	"1.1",
 	url 		= 	"https://github.com/zkservidores-clientes"
 }
 
@@ -24,7 +24,7 @@ public OnPluginStart()
 public Action:Command_Block(client, args)
 {
 	LogToFile (g_sLogs, "%L tentou crashar o servidor.", client);
-	PrintToServer("%L tentou crashar o servidor.", client);
+	PrintToServer("%L tried to crash or cause a bug in the server.", client);
 	
 	return Plugin_Stop;
 }
