@@ -4,7 +4,7 @@ char g_sLogs[PLATFORM_MAX_PATH + 1];
 
 public Plugin myinfo =
 {
-	name 		= 	"[ ZK Servidores™ ] - Block Commands",
+	name 		= 	"[ ZK Servidores™ ] Block Commands",
 	author 		= 	"Geison, crashzk",
 	description	=	"Blocks commands sent on the server console to crash or cause bugs",
 	version 	= 	"1.1",
